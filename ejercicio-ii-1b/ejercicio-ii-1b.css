@@ -1,0 +1,36 @@
+fichero{background-color: #6eb8d9;}
+fichero::before{
+display:block;
+content:attr(); font-size: 1cm;}
+nombre{
+	display: inline;
+	color:red;
+	font-size:1.5cm; 
+	display:inline;
+}
+apellido{
+	display: inline;
+	color:red;font-size:1.5cm; display:inline;
+}
+direccion{
+	display: block;
+	color:purple;font-size:1cm; 
+	display:block;
+}
+DUI{
+	display: block;
+	color:green;font-size:1cm; 
+	display:block;
+}
+idSexo{
+	display: block;
+	color:blue;
+	font-size:1cm; 
+	display:block;
+}
+idEdad{
+	display: block;
+	color:gray;
+	font-size:1cm; 
+	display:block;
+}

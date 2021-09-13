@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fichero SYSTEM "ejercicio-ii-2b.dtd">
+<?xml-stylesheet href="ejercicio-ii-1b.css"?>
+<!-- ejemplodtd1.xml Grupo13 -->
+<fichero>
+ <ficha>
+  <nombre>Blanca</nombre>
+  <apellido>Cortez</apellido>
+  <idSexo sexo="femenino">femenino </idSexo>
+  <idEdad edad="22">22</idEdad>
+  <direccion>c/Jupiter, 22</direccion>
+  <DUI>0144481-0</DUI>
+</ficha>
+</fichero>
+

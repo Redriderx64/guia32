@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejercicio-ii-1b.css"?>
+<!-- ejemplodtd1.xml Grupo13 -->
+<!DOCTYPE fichero [
+        <!ELEMENT fichero (ficha+)>
+ <!ELEMENT ficha (nombre, apellido, idSexo, idEdad, direccion*, DUI?)>
+        <!ELEMENT idSexo (#PCDATA)>
+        <!ELEMENT idEdad (#PCDATA)>
+         <!ATTLIST idSexo sexo (masculino|femenino) #REQUIRED>
+            <!ATTLIST idEdad edad  CDATA  #IMPLIED>
+            <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT apellido (#PCDATA)>
+        <!ELEMENT direccion (#PCDATA)>
+         <!ELEMENT DUI (#PCDATA) >        ]>
+<fichero>
+ <ficha>
+  <nombre>Blanca</nombre>
+  <apellido>Cortez</apellido>
+  <idSexo sexo="femenino">femenino </idSexo>
+  <idEdad edad="22">22</idEdad>
+  <direccion>c/Jupiter, 22</direccion>
+  <DUI>0144481-0</DUI>
+</ficha>
+</fichero>
+
+

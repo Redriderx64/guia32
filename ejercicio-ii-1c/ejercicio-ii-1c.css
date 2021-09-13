@@ -1,0 +1,26 @@
+fichero{background-color:  blue; text-align: center;}
+fichero::before{
+display:block;
+content:attr(); font-size: 1cm;}
+nombre{
+	display: inline;
+	background-color:  rgb(238,174,202);
+	font-size:1.5cm; 
+	display:inline;
+}
+apellido{
+	display: inline;
+	background-color:  rgb(238,174,202);
+	font-size:1.5cm; 
+	display:inline;
+}
+direccion{
+	display: block;
+	color:purple;font-size:1cm; 
+	display:block;
+}
+DUI{
+	display: block;
+	color:green;font-size:1cm; 
+	display:block;
+}
